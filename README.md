@@ -1,3 +1,8 @@
+(cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF'
+diff --git a/manthan/README.md b/manthan/README.md
+--- a/manthan/README.md
++++ b/manthan/README.md
+@@ -0,0 +1,408 @@
 +# मंथन (Manthan) - Event Management System
 +
 +<div align="center">
